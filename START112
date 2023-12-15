@@ -20,3 +20,16 @@ X and
 Y.
 Output Format
 Output a single integer: the weekly cost of food.
+
+sol  : 
+  #include <iostream>
+using namespace std;
+
+int main() {
+	int x , y , weekdays , total ; 
+	cin>>x>>y; 
+	weekdays = x*6 ; 
+	total = weekdays+y ; 
+	cout<<total; 
+	
+	return 0;
